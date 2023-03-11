@@ -1,0 +1,131 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.card-1 {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-2 {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-3 {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-4 {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.image {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 60px;
+  max-height: 60px;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.technology {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 600;
+}
+.tech-Description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  .card-1 {
+    width: 80%;
+  }
+
+  .card-2 {
+    width: 80%;
+  }
+
+  .card-3 {
+    width: 80%;
+  }
+
+  .card-4 {
+    width: 80%;
+  }
+  .image-1 {
+    margin-top: 20px;
+  }
+  .image-4 {
+    margin-top: 20px;
+  }
+  .technology {
+    font-size: 15px;
+  }
+  .tech-Description {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-1 {
+    width: 45%;
+  }
+
+  .card-2 {
+    width: 45%;
+  }
+
+  .card-3 {
+    width: 45%;
+  }
+
+  .card-4 {
+    width: 45%;
+  }
+
+  .technology {
+    font-size: 25px;
+  }
+  .tech-Description {
+    font-size: 20px;
+  }
+}
